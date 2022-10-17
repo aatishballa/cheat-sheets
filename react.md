@@ -3,9 +3,9 @@
 ## Table of Contents
 
 1.[Functional Components](#functional-components) 
-2. [Props] (#props)
-3. [Passing to Parent Component](#passing-to-parent-component)
-4. [Event listeners](#event-listeners) 
+2.[Props] (#props) 
+3.[Passing to Parent Component](#passing-to-parent-component) 
+4.[Event listeners](#event-listeners)
 
 ## Functional Components
 
@@ -20,8 +20,9 @@
 ## Styling
 
 ## Hooks
-    1. ### useState
-    2. ###useEffect
-    3. ###useReducer
+
+     ###useState
+     ###useEffect
+     ###useReducer
 
 ## Context API
