@@ -5,5 +5,9 @@
 ## Passing to Parent Component
 ## Event listeners
 ## Two way data binding
+## Styling
 ## Hooks
-## Context API        
+    - useState
+    - useEffect
+    - useReducer
+## Context API       

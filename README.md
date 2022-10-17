@@ -2,4 +2,4 @@
 A cheat sheet repository for new technologies.
 
 
-- ['React'](react.md)
+- [React 18](react.md)
