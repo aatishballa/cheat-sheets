@@ -16,6 +16,7 @@ export const testComponent = () => {
 }
 ```
 
+
 ## Props
 
 ## Passing to Parent Component
@@ -28,10 +29,13 @@ export const testComponent = () => {
 
 ## Hooks
 
-###useState
-###useEffect
-###useReducer
+1. [useState](#usestate)
+1. [useEffect](#useeffect)
+1. [useReducer](#usereducer)
 
+### useState
+### useEffect
+### useReducer
 ## Context API
 
 ## Routing
