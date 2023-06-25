@@ -2,8 +2,8 @@
 
 1.  [ref](#ref)
 1.  [reactive](#reactive)
-1.  props
-1.  event handlers
+1.  [props](#props)
+1.  [event handlers](#event-handlers)
 1.  custom events
 1.  v-model
 1.  computed
@@ -58,3 +58,75 @@ function increment() {
 
 </script>
 ```
+
+### props
+
+```javascript
+<script setup lang="ts">
+  interface message {
+    id: number,
+    msg: string,
+    size: number
+  }
+  const props = withDefaults(defineProps<{
+   userId: number,
+   message: message
+  }>(), {
+    msg: {
+      id: 1,
+      msg: 'Hello World',
+      size: 12
+    }
+  })
+</script>
+
+```
+
+### event handlers
+> **Note:** @change, @focus, @change etc
+
+```javascript
+<template>
+  <button @click="increment">Increment</button>
+</template>
+
+<script setup lang="ts">
+  function increment(e: Event) {
+    console.log((e.target as HTMLInputElement).value)
+  }
+</script>
+
+```
+
+### custom events
+
+```javascript
+<template>
+
+</template>
+
+<script setup lang="ts">
+
+</script>
+```
+
+### lifecycle hooks
+
+```javascript 
+<script setup lang="ts">
+  import { onMounted, onUpdated, onUnmounted } from 'vue'
+
+  onMounted(() => {
+    console.log('mounted')
+  })
+
+  onUpdated(() => {
+    console.log('updated')
+  })
+
+  onUnmounted(() => {
+    console.log('unmounted')
+  })
+</script>
+
+```  
